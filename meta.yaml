@@ -21,7 +21,7 @@ requirements:
     - numpy
     - zlib
     - hdf4
-    - hdf5
+    - hdf5 <1.12
     - jpeg
 
   run:
