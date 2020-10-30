@@ -25,6 +25,7 @@ requirements:
     - jpeg
 
   run:
+    - vs2015_runtime  # [win]
     - python
     - numpy
     - zlib
