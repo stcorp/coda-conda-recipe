@@ -10,6 +10,9 @@ source:
   url: https://github.com/stcorp/coda/releases/download/{{ tag }}/coda-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
+build:
+  number: 1
+
 requirements:
   build:
     - cmake
