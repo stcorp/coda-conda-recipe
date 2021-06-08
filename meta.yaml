@@ -1,5 +1,5 @@
-{% set version = "2.22" %}
-{% set sha256 = "acb149ee8cc4a582d9c56d5fb0bba8b0de628d56f8527dde2e3285006a58480b" %}
+{% set version = "2.22.1" %}
+{% set sha256 = "dd1cd0112d09cea29afa1568d644f54eccffdad2f5909708b519c1d7c647e9f1" %}
 {% set tag = version %}
 
 package:
@@ -22,6 +22,7 @@ requirements:
     - m2-flex  # [win]
     - python
     - numpy
+    - cffi
     - zlib
     - hdf4
     - hdf5 <1.12
@@ -31,6 +32,7 @@ requirements:
     - vs2015_runtime  # [win]
     - python
     - numpy
+    - cffi
     - zlib
     - hdf4
     - hdf5
